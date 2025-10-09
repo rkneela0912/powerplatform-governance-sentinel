@@ -1,0 +1,26 @@
+# Power Platform
+*.msapp
+*.zip
+*.pbix
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+
+
+# Cache
+.cache/

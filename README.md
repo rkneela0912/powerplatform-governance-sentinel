@@ -1,0 +1,72 @@
+# Power Platform Governance & Security Sentinel
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+A comprehensive, open-source solution for governing and securing your Microsoft Power Platform tenant.
+
+---
+
+## The Problem: The Wild West of Citizen Development
+
+The Microsoft Power Platform (Power Apps, Power Automate) empowers business users to build applications and automations at an unprecedented scale. While this drives innovation, it often creates a significant governance and security blind spot for IT and security teams. This "shadow IT" can lead to:
+
+*   **Uncontrolled Costs:** Proliferation of apps using premium connectors without oversight.
+*   **Data Leakage:** Sensitive business data being inadvertently shared with non-approved external services (e.g., social media, personal cloud storage).
+*   **Security Vulnerabilities:** Flows running with elevated privileges or using insecure connectors.
+*   **Operational Risk:** Critical business processes becoming dependent on apps and flows owned by a single employee, creating a single point of failure if that employee leaves.
+
+Organizations are struggling to get timely, actionable answers to fundamental governance questions. This project provides the answers.
+
+## The Solution: A Sentinel for Your Tenant
+
+The **Power Platform Governance & Security Sentinel** is an easily deployable solution that provides a centralized, holistic view of your entire Power Platform inventory. It automates the process of discovery, analysis, and reporting, turning raw tenant data into actionable security and governance insights.
+
+This solution continuously scans your environment and populates a dedicated Dataverse backend, which then feeds a comprehensive Power BI dashboard and a model-driven administrative app.
+
+## Key Features
+
+*   **Automated Tenant Scanning:** Uses Power Automate flows with the Power Platform for Admins connectors to inventory all apps, flows, connectors, and owners.
+*   **Centralized Data Repository:** Stores all harvested metadata in a dedicated, secure Dataverse instance.
+*   **Rich Interactive Dashboard:** A Power BI report provides a single pane of glass to visualize:
+    *   App and flow growth over time.
+    *   Usage of premium vs. standard connectors.
+    *   Connectors with potential for data leakage (e.g., social media, FTP).
+    *   Orphaned apps and flows.
+    *   Highly privileged flows.
+*   **Administrative Command Center:** A Model-Driven Power App allows administrators to review assets, flag items for follow-up, and manage the governance process.
+*   **Extensible & Open-Source:** Built entirely on the Power Platform and designed to be customized and extended by the community.
+
+## Architecture
+
+This solution is comprised of several interconnected components, all running within your Power Platform environment.
+
+```mermaid
+graph TD
+    A[Power Platform Tenant] -- Power Platform for Admins Connector --> B(Power Automate Flows);
+    B -- Harvests Metadata --> C{Dataverse Backend};
+    C -- Feeds Data --> D[Power BI Dashboard];
+    C -- Feeds Data --> E[Model-Driven Admin App];
+    D -- Provides Insights --> F(Administrators);
+    E -- Enables Action --> F;
+    G[Optional: Canvas App for Attestation] -- Updates --> C;
+```
+
+## Getting Started
+
+Detailed installation and configuration instructions will be provided in the `docs` folder.
+
+1.  **Prerequisites:** Ensure you have the necessary Power Platform licenses and administrative permissions.
+2.  **Solution Import:** Import the managed solution package into your Power Platform environment.
+3.  **Configuration:** Configure the initial connection references and run the setup flow.
+4.  **Initial Scan:** Trigger the main flows to perform the first full scan of your tenant.
+5.  **Connect Power BI:** Connect the Power BI template file to your Dataverse instance.
+
+## How to Contribute
+
+We welcome contributions from the community! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
