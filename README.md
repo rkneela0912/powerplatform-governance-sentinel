@@ -70,3 +70,13 @@ We welcome contributions from the community! Please read our [CONTRIBUTING.md](C
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
+## Publications and Resources
+
+### Whitepaper
+- [The Governance Imperative in the Age of Citizen Development](docs/Power_Platform_Governance_Whitepaper.md) - A comprehensive whitepaper examining the challenges of ungoverned citizen development and the case for automated governance.
+
+### Technical Articles
+- [Building a Security Sentinel for Microsoft Power Platform: A Technical Deep Dive](docs/Technical_Article_Building_a_Security_Sentinel.md) - An in-depth technical article walking through the architecture and implementation of the solution.
+
+These publications are designed to support thought leadership, community education, and can be cited in your own work.
