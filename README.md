@@ -54,13 +54,20 @@ graph TD
 
 ## Getting Started
 
-Detailed installation and configuration instructions will be provided in the `docs` folder.
+Ready to deploy the Security Sentinel in your environment? Follow our comprehensive guides:
 
-1.  **Prerequisites:** Ensure you have the necessary Power Platform licenses and administrative permissions.
-2.  **Solution Import:** Import the managed solution package into your Power Platform environment.
-3.  **Configuration:** Configure the initial connection references and run the setup flow.
-4.  **Initial Scan:** Trigger the main flows to perform the first full scan of your tenant.
-5.  **Connect Power BI:** Connect the Power BI template file to your Dataverse instance.
+### Quick Start
+1.  **Review Prerequisites:** Ensure you have the necessary Power Platform licenses and administrative permissions
+2.  **Follow the Implementation Guide:** See [IMPLEMENTATION_GUIDE.md](docs/IMPLEMENTATION_GUIDE.md) for detailed step-by-step instructions
+3.  **Build the Solution:** Create the Dataverse tables, Power Automate flows, and Model-Driven App
+4.  **Deploy the Dashboard:** Connect Power BI to your Dataverse instance and publish the dashboard
+
+### Documentation
+- **[Installation Guide](docs/INSTALLATION.md)** - Prerequisites and environment setup
+- **[Implementation Guide](docs/IMPLEMENTATION_GUIDE.md)** - Complete step-by-step build instructions (8-12 hours)
+- **[Architecture Overview](docs/ARCHITECTURE.md)** - Technical architecture and design decisions
+- **[Roadmap](docs/ROADMAP.md)** - Planned features and enhancements
+- **[FAQ](docs/FAQ.md)** - Frequently asked questions and troubleshooting
 
 ## How to Contribute
 
