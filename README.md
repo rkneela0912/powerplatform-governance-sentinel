@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/rkneela0912/powerplatform-governance-sentinel.svg)](https://github.com/rkneela0912/powerplatform-governance-sentinel/stargazers)
-
+[![DOI](https://zenodo.org/badge/1073267479.svg)](https://doi.org/10.5281/zenodo.17381339)
 
 A comprehensive, open-source solution for governing and securing your Microsoft Power Platform tenant.
 
