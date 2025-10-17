@@ -1,0 +1,13 @@
+{
+  "title": "Power Platform Governance & Security Sentinel",
+  "upload_type": "software",
+  "description": "A comprehensive, open-source solution for governing and securing your Microsoft Power Platform tenant.",
+  "creators": [
+    { "name": "Neela, Ranjith Kumar" }
+  ],
+  "keywords": ["Microsoft", "Security", "Power BI", "Governance", "Data Verse", "Low-Code","Citizen Development", "Power Platform", "Power Automate", "Power Apps"],
+  "license": "MIT",
+  "related_identifiers": [
+    { "relation": "isSupplementedBy", "identifier": "https://github.com/rkneela0912/powerplatform-governance-sentinel", scheme": "url" }
+  ]
+}
