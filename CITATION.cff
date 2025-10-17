@@ -1,13 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: Power Platform Governance & Security Sentinel
-type: software
-version: v5.0.8
+title: "Power Platform Governance & Security Sentinel"
+version: "1.0.6"
 date-released: 2025-10-11
 authors:
   - family-names: Neela
     given-names: Ranjith Kumar
-repository-code: https://github.com/rkneela0912/powerplatform-governance-sentinel
+repository-code: "https://github.com/rkneela0912/powerplatform-governance-sentinel"
 license: MIT
-# Add the DOI after Zenodo mints it:
-# doi: 10.5281/zenodo.XXXXXXX
+
