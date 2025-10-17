@@ -1,7 +1,8 @@
 # Power Platform Governance & Security Sentinel
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/rkneela0912/powerplatform-governance-sentinel.svg)](https://github.com/rkneela0912/powerplatform-governance-sentinel/stargazers)
+[![DOI](https://zenodo.org/badge/1072636455.svg)](https://doi.org/10.5281/zenodo.17329304)
 
 A comprehensive, open-source solution for governing and securing your Microsoft Power Platform tenant.
 
